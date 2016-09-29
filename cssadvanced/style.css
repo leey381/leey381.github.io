@@ -1,0 +1,30 @@
+body { 
+            background-color: red;
+                    color: white;
+                    font-size: 60px;
+}
+a { 
+          color:lime;}
+          
+          a:hover { 
+              color: black;
+              font-size: 100px;
+            
+}
+
+.container { 
+    width: 400px;}
+
+.column {
+        background-color:blue;
+        width:100px;
+        display: inline-block;
+}
+
+div {
+    background-color: blue;
+}
+    
+    
+    .circle {background-color:blue;
+    
