@@ -37,14 +37,17 @@ body {
     20% {
         top:75%;
         left:55%;
+        background-color:#F0E68C;
     }
     30% {
         top:55%;
         left:35%;
+        background-color:#FFDAB9;
     }
     40% {
         top:45%;
         left:55%;
+        background-color:#F08080;
     }
     50% {
         top:35%;
