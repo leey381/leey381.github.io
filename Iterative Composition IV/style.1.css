@@ -1,19 +1,9 @@
 body {
     background-color:#556B2F;
 }
-p{ background-color:#D8BFD8;
-    height: 150px;
-    width: px;
-    transition: all 2s;
-    font-family: Arial Rounded MT Bold, sans-serif;
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 150px;
-    color: red;
-    text-align: center;
-}
 
- 
+p:hover { background-color:#556B2F;
+
 
 .pop {
     position: absolute;
@@ -98,4 +88,67 @@ p{ background-color:#D8BFD8;
 
 }
 
+
+.outer {
+  position: absolute;
+  
+}
+.left {
+  top:0;
+  left:0;
+  width: 50px;
+  overflow: hidden;
+  animation-name: crack;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.right {
+  top:0;
+  left:50px;
+  width: 50px;
+  height: 150px;
+  overflow: hidden;
+    animation-name: crack2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+.egg {
+   height:150px;
+  width: 100px;
+  background-color: black;
+  border-radius: 100%;
+}
+
+.rightegg {
+  position: absolute;
+  top:0;
+  left: -50px;
+}
+
+@keyframes crack {
+  from {
+    left:0;
+    transform: rotate(0deg);
+  }
+  to {
+    left: -20px;
+    transform: rotate(20deg);
+  }
+  
+}
+
+@keyframes crack2 {
+  from {
+    left:50px;
+    transform: rotate(0deg);
+  }
+  to {
+    left: 70px;
+    transform: rotate(-20deg);
+  }
+  
+}
 
