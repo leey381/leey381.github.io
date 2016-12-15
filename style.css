@@ -10,7 +10,7 @@ body {
 .circle {
         text-align: center;
         background-color:olive;
-        color:lightsteelblue;
+        color:lightpink;
         font-weight: bold;
         font-family: ArialRoundedMTBold;
         line-height:300px;
@@ -18,16 +18,18 @@ body {
         width: 300px;
         height:300px;
         border-radius:100% ;
+        transition: all 1.4s;
      
 }
 
 .circle:hover{
     text-align: center;
     background-color:#DB7093;
-    width:500px;
-    height:500px;
-    font-size:20px;
-    line-height: 500px;
+    color:lavender;
+    width:360px;
+    height:360px;
+    font-size:13px;
+    line-height:360px;
     border-radius:100%;
 }
 
@@ -36,18 +38,21 @@ p { height:32px;
     font-family:futura;
     text-align: center;
     font-weight:bold;
-    background-color: white;
+    background-color: lavender;
     color:tomato;
     font-size:30px;
     
 }
 
 
-ul {height: 128px;
+ul {height:128px;
     width:500px;
-    background-color:white;
-    font-family:ArialRoundedMTBold,sans-serif;}
+    font-family:ArialRoundedMTBold,sans-serif;
+    font-size: 20px;
+}
             
-a { color: pink;
-    
+a { color: lavender;
+}
+
+li {color: lavender;
 }
