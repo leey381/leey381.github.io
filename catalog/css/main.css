@@ -14,8 +14,10 @@ body{
 .position1 {
     width: 500px;
     height:500px;
-   
+
 }
+
+
 
 .position2 {
     width: 440px;
@@ -43,3 +45,55 @@ body{
     height: 110px;
 }
 
+.preview {
+    display: inline-block;
+}
+
+.blue {
+    width: 100px;
+    height:120px;
+    border-radius:100%;
+    z-index: auto
+}
+
+
+.line {
+    width: 100px;
+    height:120px;
+    border-radius:100%;
+    z-index: auto
+}
+
+.flying {
+     width: 100px;
+    height:120px;
+    border-radius:100%;
+    z-index: auto
+    
+}
+
+.hatch {
+     width: 100px;
+    height:120px;
+    border-radius:100%;
+    z-index: auto
+    
+}
+
+
+.dream{
+     width: 100px;
+    height:120px;
+    border-radius:100%;
+    z-index: auto
+    
+}
+
+
+.final{
+     width: 100px;
+    height:120px;
+    border-radius:100%;
+    z-index: auto
+    
+}

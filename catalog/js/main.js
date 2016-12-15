@@ -1,3 +1,4 @@
+
 $( document ).ready(function() {
     $( ".position1" ).click(function() {
         window.open("../iterative-composition1/index.html");
@@ -19,10 +20,14 @@ $( document ).ready(function() {
     });
     
     
+
+   
+   
     $(".position1").mouseenter(function(){
         $('.position1').effect("bounce", 1000);
     });
-    
+
+
       $(".position2").mouseenter(function(){
         $('.position2').effect("bounce", 1000);
     });
