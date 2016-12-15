@@ -1,40 +1,42 @@
 body{
     background-color: #ec008c;
+    overflow-x: scroll;
+    width: 3000px;
+    padding-left: 40px;
+    padding-top: 60px;
 }
 
+.russian-doll {
+    display: inline-block;
+}
 
-.circle1{
-    width: 430px;
-    height: 430px;
-    border-radius: 100%;
-    color:red;
-    position: absolute;
-    top:140px;
-    left:20px;
-     background-color: red;
-     z-index: 100;
+.position1 {
+    width: 500px;
+    height:500px;
 }
-    
-.smallcircle{
-    width: 170px;
-    height: 170px;
-    border-radius: 100%;
-    color:red;
-    position: absolute;
-    top:270px;
-    left:149px;
-    background-color: #ec008c;
-    z-index: 200;
+
+.position2 {
+    width: 440px;
+    height: 440px;
 }
-   
-    
-.circle3{
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    color:red;
-    position: absolute;
-    top:450;
-    left:300;
+
+.position3 {
+    width: 350px;
+    height: 350px;
+}
+
+.position4 {
+    width: 270px;
+    height: 270px;
+}
+ 
+.position5 {
+    width: 195px;
+    height: 195px;
+}
+
+.position6 {
+    width: 110px;
+    height: 110px;
 }
  

@@ -1,0 +1,66 @@
+
+.outer {
+  position: absolute;
+
+}
+
+
+.left {
+  top:100;
+  left:300px;
+  width: 100px;
+  overflow: hidden;
+  animation-name: crack;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+.right {
+  top:100;
+  left:200px;
+  width: 100px;
+  height: 300px;
+  overflow: hidden;
+    animation-name: crack2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+.egg {
+   height:300px;
+  width: 200px;
+  background-color: #FAFAD2;
+  border-radius: 100%;
+}
+
+.rightegg {
+  position: absolute;
+  top:0;
+  left: -100px;
+}
+
+@keyframes crack {
+  from {
+    left:0;
+    transform: rotate(0deg);
+  }
+  to {
+    left: -40px;
+    transform: rotate(-20deg);
+  }
+  
+}
+
+@keyframes crack2 {
+  from {
+    left:100px;
+    transform: rotate(0deg);
+  }
+  to {
+    left: 140px;
+    transform: rotate(20deg);
+  }
+  
+}

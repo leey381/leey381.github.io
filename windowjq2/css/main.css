@@ -1,0 +1,53 @@
+.body{
+    background-color:black;
+}
+
+.go{
+    width: 100px;
+    height: 100px;
+    border-radius:100%;
+    background-color:yellow;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: middle;
+    transition: background-color 1.8s ease-out;
+    z-index: -1;
+     ;
+   
+}
+
+
+.cat {
+    width: 100px;
+    height: 100px;
+
+    
+}
+
+.images {
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.images img {
+    margin: 20px;
+    vertical-align: middle;
+}
+
+
+.pic {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+}
+
+.egg {
+   display:block;
+   width: 63px;
+   height: 90px;
+   background-color: red;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+}
+
