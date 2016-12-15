@@ -1,5 +1,5 @@
 body {
-    background-color:#556B2F;
+    background-color:#FFA07A;
 }
 .pop {
     position: absolute;
@@ -7,7 +7,7 @@ body {
    width:150px;
    height: 200px;
    background-color: #FFB6C1;
-   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   /*-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;*/
    border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
     transition: all 2s;
     top:35%;
