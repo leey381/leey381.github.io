@@ -1,5 +1,5 @@
 body{
-    background-color: #ec008c;
+    background-color: tomato;
     overflow-x: scroll;
     width: 3000px;
     padding-left: 40px;
@@ -14,7 +14,7 @@ body{
 .position1 {
     width: 500px;
     height:500px;
-    
+   
 }
 
 .position2 {
@@ -37,8 +37,9 @@ body{
     height: 195px;
 }
 
+
 .position6 {
     width: 110px;
     height: 110px;
 }
- 
+
